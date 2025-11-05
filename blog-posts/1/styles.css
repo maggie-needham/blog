@@ -1,4 +1,14 @@
 body {
     background-color: yellow;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+p{
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+    width: 60vw;
+    text-align: justify;
+    align-self: center;
 }

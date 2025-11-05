@@ -1,13 +1,15 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow: hidden; 
+    height: 100vh;
+    background-color: black;
 }
 
 /*  STRIPES */
 .one, .two , .three, .four , .five , .six , .seven , .eight , .nine , .ten {
     position: absolute; 
     width: 100vw;
-    height: 60px;
+    height: 10vh;
     left: 0vw;
 }
 
@@ -20,45 +22,52 @@ body {
 
 .two {
     background-color: yellow;
-    top: 60px;
+    top: 10vh;
 }
 
 .three {
     background-color: cyan;
-    top: 120px;
+    top: 20vh;
 }
 
 .four {
     background-color: darkorange;
-    top: 180px;
+    top: 30vh;
 }
 
 .five {
     background-color:gold;
-    top: 240px;
+    top: 40vh;
 }
 
 .six {
     background-color: goldenrod;
-    top: 300px;
+    top: 50vh;
 }
 
 .seven {
     background-color:pink;
-    top: 360px;
+    top: 60vh;
 }
 
 .eight {
     background-color: red;
-    top: 420px;
+    top: 70vh;
 }
 
 .nine {
     background-color:deepskyblue;
-    top: 480px;
+    top: 80vh;
 }
 
 .ten {
     background-color:chartreuse;
-    top: 540px;
+    top: 90vh;
+}
+
+.star {
+    position: absolute;
+    top: 60vh;
+    left: 75vw; 
+    width: 20vw;
 }
