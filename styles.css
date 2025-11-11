@@ -2,15 +2,23 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow: hidden; 
     height: 100vh;
-    background-color: black;
+    background-color: red;
 }
 
 /*  STRIPES */
-.one, .two , .three, .four , .five , .six , .seven , .eight , .nine , .ten {
+.one, .two , .three, .four , .five , .six , .seven , .eight , .nine , .ten, .text {
     position: absolute; 
     width: 100vw;
     height: 10vh;
     left: 0vw;
+}
+
+
+.text {
+    margin: 10px;
+}
+.text:hover {
+    color: blue;
 }
 
 .one {
@@ -65,9 +73,14 @@ body {
     top: 90vh;
 }
 
-.star {
+img {
     position: absolute;
-    top: 60vh;
+    top: 70vh;
     left: 75vw; 
     width: 20vw;
+    rotate: 180deg;
 }
+/* .subscribe {
+    position: absolute;
+    top: 70vh;
+} */
