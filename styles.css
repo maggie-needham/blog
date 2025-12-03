@@ -13,7 +13,6 @@ body {
     left: 0vw;
 }
 
-
 .text {
     margin: 10px;
 }
@@ -73,14 +72,22 @@ body {
     top: 90vh;
 }
 
+@keyframes spinBaby {
+  0% {rotate: 0deg;}
+  100% {rotate: 360deg;}
+}
+
 img {
-    position: absolute;
-    top: 70vh;
+    position: fixed;
+    top: 60vh;
     left: 75vw; 
     width: 20vw;
-    rotate: 180deg;
 }
-/* .subscribe {
-    position: absolute;
-    top: 70vh;
-} */
+
+img:hover{
+    /** Make it so it sticks in the position you left it in*/
+    animation-name: spinBaby;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
