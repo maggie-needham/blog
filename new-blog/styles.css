@@ -1,4 +1,229 @@
 body{
     background-image: url('../mylip.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    background-size: 120% 30%;
+    overflow: hidden;
+    font-family: digital_7;
+}
+
+.title {
+    position: fixed;
+    background-color: cornsilk;
+    top: 42%;
+    letter-spacing: 12px;
+    text-align: center;
+    left: 40%;
+}
+
+.blog-linx {
+    position: fixed;
+    top: 50%;
+    left: 24%;
+    width: 26%;
+    height: 7%;
+    background-color: powderblue;
+    opacity: 75%;
+}
+
+.link {
+    margin: 10px;
+}
+
+.subscribe {
+    position: fixed;
+    letter-spacing: 15px;
+    top: 70%;
+    left: 8%;
+}
+
+.pic1{
+    position: fixed;
+    width: 20%;
+    height: auto;
+    top: 8%;
+    left: 10%;
+    opacity: 60%;
+}
+
+.pic2 {
+    position: fixed;
+    width: 11%;
+    height: auto;
+    top: 20%;
+    left: 26%;
+    opacity: 80%;
+    z-index: 1;
+}
+
+/* .pic3{
+    position: fixed;
+    width: 100px;
+    height: auto;
+    top: 100px;
+    left: 100px;
+    opacity: 50%;
+} */
+
+.pic4{
+    position: fixed;
+    width: 40%;
+    height: auto;
+    top: 13%;
+    left: 31%;
+    opacity: 70%;
+}
+
+/* .pic5{
+    position: fixed;
+    width: 100px;
+    height: auto;
+    top: 100px;
+    left: 100px;
+    opacity: 50%;
+} */
+
+.pic6{
+    position: fixed;
+    width: 30%;
+    height: auto;
+    top: 55%;
+    left: 23%;
+    opacity: 80%;
+}
+
+.pic7{
+    position: fixed;
+    width: 13%;
+    height: auto;
+    top: 53%;
+    left: 9%;
+    opacity: 90%;
+
+}
+
+.pic8{
+    position: fixed;
+    width: 10%;
+    height: auto;
+    top: 52%;
+    left: 73%;
+    opacity: 60%;
+}
+
+.pic9{
+    position: fixed;
+    width: 20%;
+    height: auto;
+    top: 69%;
+    left: 57%;
+    opacity: 100%;
+}
+
+.pic10{
+    position: fixed;
+    width: 20%;
+    height: auto;
+    top: 10%;
+    left: 72%;
+    opacity: 90%;
+}
+
+.pic11{
+    position: fixed;
+    width: 15%;
+    height: auto;
+    top: 60%;
+    left: 80%;
+    opacity: 100%;
+}
+
+.pic12{
+    position: fixed;
+    width: 30%;
+    height: auto;
+    top: 30%;
+    left: 4%;
+    opacity: 25%;
+    z-index: -1;
+}
+
+
+@font-face {
+    font-family: alte_haas_grotesk;
+    src: url(../fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf);
+}
+
+@font-face {
+    font-family: alte_haas_grotesk;
+    src: url(../fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf);
+}
+
+@font-face {
+    font-family: angels_message;
+    src: url(../fonts/angels_message/Angels\ Message.ttf);
+}
+
+@font-face {
+    font-family: arial_narrow_7;
+    src: url(../fonts/arial_narrow_7/arial_narrow_7.ttf);
+}
+
+@font-face {
+    font-family: babel_sans;
+    src: url(../fonts/babel_sans/BabelSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: creato_display;
+    src: url(../fonts/creato_display/CreatoDisplay-Regular.otf);
+}
+
+@font-face {
+    font-family: digital_7;
+    src: url(../fonts/digital_7/digital-7.ttf);
+}
+
+@font-face {
+    font-family: eg_dragon_caps;
+    src: url(../fonts/eg_dragon_caps/EG_Dragon_Caps.ttf);
+}
+
+@font-face {
+    font-family: llpaladin;
+    src: url(../fonts/llpaladin/LLPALADI2.ttf);
+}
+
+@font-face {
+    font-family: pr_celtic_narrow;
+    src: url(../fonts/pr_celtic_narrow/NARROW.TTF);
+}
+
+@font-face {
+    font-family: ruritania;
+    src: url(../fonts/ruritania/Ruritania.ttf);
+}
+
+@font-face {
+    font-family: FrenchPilates;
+    src: url(../fonts/FrenchPirates.ttf);
+}
+
+@font-face {
+    font-family: HorrorFont;
+    src: url(../fonts/HorrorFont-Regular.ttf);
+}
+
+@font-face {
+    font-family: kingjola;
+    src: url(../fonts/kingjola.ttf);
+}
+
+@font-face {
+    font-family: RawNotice;
+    src: url(../fonts/RawNotice.ttf);
+}
+
+@font-face {
+    font-family: Woodcut1;
+    src: url(../fonts/Woodcut1.ttf);
 }
