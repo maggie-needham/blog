@@ -13,10 +13,6 @@ a {
     color: black;
 }
 
-a:hover {
-    color: yellow;
-}
-
 .blog {
     position: fixed;
     background-color: cornsilk;
@@ -28,7 +24,11 @@ a:hover {
     opacity: 60%;
     font-size: 60px;
     font-family: 'RawNotice';
+}
 
+/* this is not working */
+.spinner:active:after {
+    animation-name: spin;
     animation-duration: 2000ms;
     animation-iteration-count: 1;
     animation-timing-function: linear;
@@ -55,6 +55,11 @@ a:hover {
     font-family: 'RawNotice';
 }
 
+/* don't know why this isn't working */
+.blog-linx:hover {
+    color: yellow;
+}
+
 .by {
     position: fixed;
     top: 28%;
@@ -78,6 +83,10 @@ a:hover {
     font-style: italic;
     background-color: crimson;
     /* opacity: 50%; */
+}
+
+.subscribe:hover {
+    color: yellow;
 }
 
 .pic1 {
