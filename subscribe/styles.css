@@ -1,7 +1,12 @@
 body {
-    background-color: #c1ff72;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: crimson;
+    font-family: babel_sans;
     overflow: hidden; 
     height: 100vh;
     text-align: center;
+}
+
+@font-face {
+    font-family: babel_sans;
+    src: url(fonts/babel_sans/BabelSans-Bold.ttf);
 }
