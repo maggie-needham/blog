@@ -1,14 +1,45 @@
+* {
+    cursor: pointer;
+}
 body {
-    background-color: yellow;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: steelblue;
+    font-family: babel_sans;
     text-align: center;
 }
 
 p{
     position: absolute;
-    top: 10vh;
+    top: 13vh;
     left: 20vw;
     width: 60vw;
     text-align: justify;
     align-self: center;
+    margin-bottom: 10vw;
+    cursor: text;
+}
+
+h1{
+    font-family: RawNotice;
+    position: absolute;
+    top: 1vh;
+    width: 100vw;
+}
+
+.mouth {
+    height: 10%;
+    position: fixed;
+    left: 85%;
+}
+
+.mouth:hover {
+    cursor: url(../../imgs/redarrow.png), auto;
+}
+@font-face {
+    font-family: babel_sans;
+    src: url(../../fonts/babel_sans/BabelSans.ttf);
+}
+
+@font-face {
+    font-family: RawNotice;
+    src: url(../../fonts/RawNotice.ttf);
 }

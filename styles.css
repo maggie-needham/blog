@@ -55,6 +55,10 @@ a:hover {
     background-color: yellow;
 }
 
+.by:hover {
+    color: black;
+}
+
 .link {
     margin: 10px;
 }
@@ -80,13 +84,6 @@ a:hover {
     top: 8%;
     left: 10%;
     opacity: 100%;
-}
-
-.pic1:hover {
-    border-radius: 1%;
-     border-style: solid;
-    border-color: yellow;
-    z-index: 1;
 }
 
 .pic2 {
