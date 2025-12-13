@@ -1,3 +1,7 @@
+* {
+ cursor: url(imgs/redarrow.png), auto;
+}
+
 body{
     /* background-image: url('mylip.png'); */
     background-color: steelblue;
@@ -7,7 +11,6 @@ body{
     font-family: 'babel_sans';
 }
 
-/* unvisited */
 a {
     text-decoration: none;
     color: black;
@@ -15,7 +18,7 @@ a {
 
 .blog {
     position: fixed;
-    background-color: cornsilk;
+    background-color: #fff8dc;
     top: 20%;
     text-align: center;
     left: 40%;
@@ -24,14 +27,7 @@ a {
     opacity: 60%;
     font-size: 60px;
     font-family: 'RawNotice';
-}
-
-/* this is not working */
-.spinner:active:after {
-    animation-name: spin;
-    animation-duration: 2000ms;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
+    
 }
 
 .blog-linx {
