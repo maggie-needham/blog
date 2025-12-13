@@ -30,10 +30,6 @@ h1{
     position: fixed;
     left: 85%;
 }
-
-.mouth:hover {
-    cursor: url(../../imgs/redarrow.png), auto;
-}
 @font-face {
     font-family: babel_sans;
     src: url(../../fonts/babel_sans/BabelSans.ttf);
