@@ -1,5 +1,5 @@
 * {
- cursor: url(imgs/redarrow.png), auto;
+ cursor: url(imgs/redarrow.png) 0 0 , auto;
 }
 
 body{
@@ -127,10 +127,9 @@ a:hover {
     position: fixed;
     width: 13%;
     height: auto;
-    top: 57%;
+    top: 59%;
     left: 9%;
     opacity: 90%;
-
 }
 
 .pic7 {

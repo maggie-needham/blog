@@ -1,6 +1,8 @@
+
 * {
-    cursor: pointer;
+ cursor: url(../../imgs/redarrow.png) 0 0 , auto;
 }
+
 body {
     background-color: steelblue;
     font-family: babel_sans;
@@ -25,11 +27,17 @@ h1{
     width: 100vw;
 }
 
+h1:hover {
+    color: yellow;
+}
+
 .mouth {
     height: 10%;
     position: fixed;
     left: 85%;
+    z-index: 1;
 }
+
 @font-face {
     font-family: babel_sans;
     src: url(../../fonts/babel_sans/BabelSans.ttf);
