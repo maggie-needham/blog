@@ -179,29 +179,29 @@ a:hover {
 /* I like for title, not for subscribe or for body , maybe not me as much */
 @font-face {
     font-family: angels_message;
-    src: url(fonts/angels_message/Angels\ Message.ttf);
+    src: url("./fonts/angels_message/Angels\ Message.ttf");
 }
 
 /* Really good for body and subscribe, def going to be main font */
 @font-face {
     font-family: babel_sans;
-    src: url(fonts/babel_sans/BabelSans-Bold.ttf);
+    src: url("./fonts/babel_sans/BabelSans-Bold.ttf");
 }
 /* I  like this */
 @font-face {
     font-family: FrenchPilates;
-    src: url(fonts/FrenchPirates.ttf);
+    src: url("./fonts/FrenchPirates.ttf");
 }
 
 /* Maybe for subscribe */
 @font-face {
     font-family: HorrorFont;
-    src: url(fonts/HorrorFont-Regular.ttf);
+    src: url("./fonts/HorrorFont-Regular.ttf");
 }
 
 
 /* like a lot */ 
 @font-face {
     font-family: RawNotice;
-    src: url(fonts/RawNotice.ttf);
+    src: url("./fonts/RawNotice.ttf");
 }
