@@ -1,6 +1,6 @@
 
 * {
- cursor: url(../../imgs/redarrow.png) 0 0 , auto;
+ cursor: url(https://github.com/maggie-needham/blog/releases/download/images/redarrow.png) 0 0 , auto;
 }
 
 body {
@@ -17,7 +17,6 @@ p{
     text-align: justify;
     align-self: center;
     margin-bottom: 10vw;
-    cursor: text;
 }
 
 h1{
