@@ -26,10 +26,6 @@ h1{
     width: 100vw;
 }
 
-h1:hover {
-    color: yellow;
-}
-
 .mouth {
     height: 10%;
     position: fixed;
@@ -45,4 +41,68 @@ h1:hover {
 @font-face {
     font-family: RawNotice;
     src: url(../../fonts/RawNotice.ttf);
+}
+
+.jeans {
+    display: flex;
+    width: 20%;
+    margin: auto;
+}
+
+.datacenter {
+    width: 40%;
+    margin: auto;
+    display: flex;
+}
+
+.salad {
+    display: inline; 
+    width: 20%;
+    margin: 10px;
+    margin-left: 8%;
+}
+
+.me {
+    display: inline;
+    width: 20%;
+    margin: 10px;
+}
+
+.eyes{
+    display: inline;
+    width: 37%;
+    margin: 10px;
+}
+
+.ss6 {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+.ss7 {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+.ss8 {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+
+.memorycloud{
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.insta{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.bottom_caption {
+    position: absolute;
+    bottom: 10%; 
 }
