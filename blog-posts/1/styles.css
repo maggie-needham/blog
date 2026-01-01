@@ -35,12 +35,12 @@ h1{
 
 @font-face {
     font-family: babel_sans;
-    src: url(./../../fonts/BabelSans.woff2);
+    src: url(../../fonts/BabelSans.woff2);
 }
 
 @font-face {
     font-family: RawNotice;
-    src: url(./../../fonts/RawNotice.ttf);
+    src: url(../../fonts/RawNotice.woff2);
 }
 
 .jeans {
