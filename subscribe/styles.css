@@ -12,10 +12,10 @@ body {
 
 @font-face {
     font-family: babel_sans;
-    src: url(../fonts/babel_sans/BabelSans-Bold.ttf);
+    src: url(../fonts/BabelSans.woff2);
 }
 
 @font-face {
     font-family: RawNotice;
-    src: url(fonts/RawNotice.ttf);
+    src: url(../fonts/RawNotice.woff2);
 }
