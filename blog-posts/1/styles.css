@@ -106,3 +106,118 @@ h1{
     position: absolute;
     bottom: 10%; 
 }
+
+
+/** for iphone -- dont' forget to change spacing in html as well -- 2 with <br><br> **/
+
+
+
+* {
+ cursor: url(https://github.com/maggie-needham/blog/releases/download/images/redarrow.png) 0 0 , auto;
+}
+
+body {
+    background-color: steelblue;
+    font-family: babel_sans;
+    text-align: center;
+}
+
+p{
+    position: absolute;
+    top: 13vh;
+    left: 5vw;
+    width: 90vw;
+    text-align: justify;
+    align-self: center;
+    margin-bottom: 10vw;
+}
+
+h1{
+    font-family: RawNotice;
+    position: absolute;
+    top: 1vh;
+    width: 100vw;
+}
+
+.mouth {
+    height: 90px;
+    position: absolute;
+    left: 84px;
+    top: 8020px;
+    z-index: 1;
+    margin-top: 5px;
+}
+
+@font-face {
+    font-family: babel_sans;
+    src: url(../../fonts/BabelSans.woff2);
+}
+
+@font-face {
+    font-family: RawNotice;
+    src: url(../../fonts/RawNotice.woff2);
+}
+
+.jeans {
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+.datacenter {
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.salad {
+    display: inline;
+    width: 40%;
+    margin: 10px;
+    margin-left: 8%;
+}
+
+.me {
+    display: inline;
+    width: 40%;
+    margin: 10px;
+}
+
+.eyes{
+    display: inline;
+    width: 90%;
+    margin: 23px;
+}
+
+.ss6 {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+.ss7 {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+.ss8 {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+
+.memorycloud{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.insta{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.bottom_caption {
+    position: absolute;
+    bottom: 10%; 
+}
