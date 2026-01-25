@@ -32,6 +32,10 @@ a:hover {
     font-family: 'RawNotice';
 }
 
+.blog:hover {
+    color: rgb(0, 21, 255);
+}
+
  .blog-linx {
     position: absolute;
     top: 39%;
