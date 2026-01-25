@@ -3,9 +3,9 @@
 }
 
 body{
-     background-image: url('mylip.png'); 
+    background-image: url('mylip.png'); 
     background-color: steelblue;
-     background-repeat: repeat;
+    background-repeat: repeat;
     background-size: 120% 30%; 
     overflow: hidden;
     font-family: 'babel_sans';
@@ -23,7 +23,7 @@ a:hover {
 .blog {
     position: absolute;
     background-color: #fff8dc;
-    top: 200px;
+    top: 155px;
     text-align: center;
     left: 600px;
     z-index: 2;
@@ -36,7 +36,7 @@ a:hover {
     color: rgb(0, 21, 255);
 }
 
- .blog-linx {
+.blog-linx {
     position: absolute;
     top: 39%;
     left: 33%;
@@ -50,7 +50,7 @@ a:hover {
 
 .by {
     position: absolute;
-    top: 200px;
+    top: 155px;
     left: 700px;
     z-index: 2;
     letter-spacing: 15px;
@@ -69,9 +69,10 @@ a:hover {
     font-style: italic;
     background-color: crimson;
 }
+
 .blog-linx {
     position: fixed;
-    top: 492px;
+    top: 447px;
     left: 396px;
     width: 396px;
     height: 84px;
@@ -81,9 +82,9 @@ a:hover {
     font-family: 'RawNotice';
 }
 
- .by {
+.by {
     position: fixed;
-    top: 336px;
+    top: 291px;
     left: 648px;
     z-index: 2;
     letter-spacing: 15px;
@@ -98,10 +99,10 @@ a:hover {
     margin: 10px;
 }
 
- .subscribe {
+.subscribe {
     position: fixed;
     letter-spacing: 15px;
-    top: 840px;
+    top: 795px;
     left: 72px;
     font-size: 20px;
     font-family: 'babel_sans';
@@ -115,7 +116,7 @@ a:hover {
 
 .blog-linx {
     position: fixed;
-    top: 382px;
+    top: 337px;
     left: 396px;
     width: 396px;
     height: 84px;
@@ -127,7 +128,7 @@ a:hover {
 
 .by {
     position: fixed;
-    top: 264px;
+    top: 219px;
     left: 776px;
     z-index: 2;
     letter-spacing: 20px;
@@ -146,7 +147,7 @@ a:hover {
 .subscribe {
     position: fixed;
     letter-spacing: 15px;
-    top: 603px;
+    top: 558px;
     left: 112px;
     font-size: 29px;
     font-family: 'babel_sans';
@@ -162,7 +163,7 @@ a:hover {
 .pic1 {
     position: fixed;
     width: 250px;
-    top: 75px;
+    top: 30px;
     left: 95px;
     opacity: 100%;
 }
@@ -171,7 +172,7 @@ a:hover {
     position: fixed;
     width: 190px;
     height: auto;
-    top: 180px;
+    top: 135px;
     left: 234px;
     z-index: 1;
 }
@@ -180,7 +181,7 @@ a:hover {
     position: fixed;
     width: 130px;
     height: auto;
-    top: 387px;
+    top: 342px;
     left: 830px;
     opacity: 70%;
     z-index: 2;
@@ -190,7 +191,7 @@ a:hover {
     position: fixed;
     width: 665px;
     height: auto;
-    top: 117px;
+    top: 72px;
     left: 372px;
     opacity: 70%;
     z-index: -1;
@@ -200,7 +201,7 @@ a:hover {
     position: fixed;
     width: 260px;
     height: auto;
-    top: 541px;
+    top: 496px;
     left: 267px;
     opacity: 72%;
 }
@@ -209,7 +210,7 @@ a:hover {
     position: fixed;
     width: 207px;
     height: auto;
-    top: 432px;
+    top: 387px;
     left: 41px;
     opacity: 90%;
 }
@@ -217,18 +218,16 @@ a:hover {
 .pic7 {
     position: fixed;
     width: 230px;
-    /* height: auto; */
-    top: 428px;
+    top: 383px;
     left: 1057px;
     z-index: 1;
-    /* height: auto; */
 }
 
 .pic8 {
     position: fixed;
     width: 202px;
     height: auto;
-    top: 601px;
+    top: 556px;
     left: 868px;
     opacity: 75%;
 }
@@ -237,7 +236,7 @@ a:hover {
     position: fixed;
     width: 316px;
     height: auto;
-    top: 48px;
+    top: 15px;
     left: 1084px;
     opacity: 90%;
 }
@@ -246,7 +245,7 @@ a:hover {
     position: fixed;
     width: 253px;
     height: auto;
-    top: 558px;
+    top: 513px;
     left: 1114px;
 }
 
@@ -254,8 +253,8 @@ a:hover {
     position: fixed;
     width: 320px;
     height: auto;
-    top: 423px;
-    left: 36px;
+    top: 380px;
+    left: 30px;
     opacity: 40%;
     z-index: -1;
 }
@@ -273,217 +272,217 @@ a:hover {
 
 @media (max-width: 768px) {
     
-a {
-    text-decoration: none;
-    color: black;
-}
+    a {
+        text-decoration: none;
+        color: black;
+    }
 
-.blog {
-    position: absolute;
-    background-color: #fff8dc;
-    top: 180px;
-    text-align: center;
-    left: 220px;
-    z-index: 2;
-    font-size: 50px;
-    opacity: 60%;
-    font-family: 'RawNotice';
-}
+    .blog {
+        position: absolute;
+        background-color: #fff8dc;
+        top: 180px;
+        text-align: center;
+        left: 220px;
+        z-index: 2;
+        font-size: 50px;
+        opacity: 60%;
+        font-family: 'RawNotice';
+    }
 
-.subscribe {
-    position: absolute;
-    letter-spacing: 15px;
-    top: 68%;
-    left: 6%;
-    font-size: 20px;
-    font-family: 'babel_sans';
-    font-style: italic;
-    background-color: crimson;
-}
-.blog-linx {
-    position: fixed;
-    top: 492px;
-    left: 396px;
-    width: 396px;
-    height: 84px;
-    background-color: powderblue;
-    opacity: 100%;
-    z-index: 2;
-    font-family: 'RawNotice';
-}
+    .subscribe {
+        position: absolute;
+        letter-spacing: 15px;
+        top: 68%;
+        left: 6%;
+        font-size: 20px;
+        font-family: 'babel_sans';
+        font-style: italic;
+        background-color: crimson;
+    }
+    .blog-linx {
+        position: fixed;
+        top: 492px;
+        left: 396px;
+        width: 396px;
+        height: 84px;
+        background-color: powderblue;
+        opacity: 100%;
+        z-index: 2;
+        font-family: 'RawNotice';
+    }
 
- .by {
-    position: fixed;
-    top: 336px;
-    left: 648px;
-    z-index: 2;
-    letter-spacing: 15px;
-    background-color: yellow;
-} 
-
-
-.link {
-    margin: 10px;
-}
-
- .subscribe {
-    position: fixed;
-    letter-spacing: 15px;
-    top: 840px;
-    left: 72px;
-    font-size: 20px;
-    font-family: 'babel_sans';
-    font-style: italic;
-    background-color: crimson;
-}
+    .by {
+        position: fixed;
+        top: 336px;
+        left: 648px;
+        z-index: 2;
+        letter-spacing: 15px;
+        background-color: yellow;
+    } 
 
 
-.blog-linx {
-    position: fixed;
-    top: 292px;
-    left: 34px;
-    width: 286px;
-    height: 84px;
-    background-color: powderblue;
-    opacity: 100%;
-    z-index: 2;
-    font-family: 'RawNotice';
-}
+    .link {
+        margin: 10px;
+    }
 
-.by {
-    position: fixed;
-    top: 224px;
-    left: 316px;
-    z-index: 2;
-    letter-spacing: 5px;
-    background-color: yellow;
-    font-size: 12px;
-    width: 110px;
-}
+    .subscribe {
+        position: fixed;
+        letter-spacing: 15px;
+        top: 840px;
+        left: 72px;
+        font-size: 20px;
+        font-family: 'babel_sans';
+        font-style: italic;
+        background-color: crimson;
+    }
 
 
-.link {
-    margin: 10px;
-}
+    .blog-linx {
+        position: fixed;
+        top: 292px;
+        left: 34px;
+        width: 286px;
+        height: 84px;
+        background-color: powderblue;
+        opacity: 100%;
+        z-index: 2;
+        font-family: 'RawNotice';
+    }
 
-.subscribe {
-    position: fixed;
-    letter-spacing: 14px;
-    top: 623px;
-    left: 62px;
-    font-size: 17px;
-    font-family: 'babel_sans';
-    font-style: italic;
-    background-color: crimson;
-    z-index: 1;
-}
+    .by {
+        position: fixed;
+        top: 224px;
+        left: 316px;
+        z-index: 2;
+        letter-spacing: 5px;
+        background-color: yellow;
+        font-size: 12px;
+        width: 110px;
+    }
 
-.subscribe:hover {
-    color: yellow;
-}
 
-.pic1 {
-    position: fixed;
-    width: 149px;
-    top: 45px;
-    left: 45px;
-    opacity: 100%;
-}
+    .link {
+        margin: 10px;
+    }
 
-.pic2 {
-    position: fixed;
-    width: 150px;
-    height: auto;
-    top: 100px;
-    left: 114px;
-    z-index: 1;
-}
+    .subscribe {
+        position: fixed;
+        letter-spacing: 14px;
+        top: 623px;
+        left: 62px;
+        font-size: 17px;
+        font-family: 'babel_sans';
+        font-style: italic;
+        background-color: crimson;
+        z-index: 1;
+    }
 
-.pic3 {
-    position: fixed;
-    width: 110px;
-    height: auto;
-    top: 337px;
-    left: 280px;
-    opacity: 70%;
-    /* height: auto; */
-    /* z-index: 0; */
-}
+    .subscribe:hover {
+        color: yellow;
+    }
 
-.pic4 {
-    position: fixed;
-    width: 305px;
-    height: auto;
-    top: 77px;
-    left: 112px;
-    opacity: 70%;
-    z-index: -1;
-    height: 660px;
-}
+    .pic1 {
+        position: fixed;
+        width: 149px;
+        top: 45px;
+        left: 45px;
+        opacity: 100%;
+    }
 
-.pic5 {
-    position: fixed;
-    width: 120px;
-    height: auto;
-    top: 511px;
-    left: 261px;
-    opacity: 72%;
-}
+    .pic2 {
+        position: fixed;
+        width: 150px;
+        height: auto;
+        top: 100px;
+        left: 114px;
+        z-index: 1;
+    }
 
-.pic6 {
-    position: fixed;
-    width: 196px;
-    height: auto;
-    top: 482px;
-    left: 50px;
-    opacity: 90%;
-}
+    .pic3 {
+        position: fixed;
+        width: 110px;
+        height: auto;
+        top: 337px;
+        left: 280px;
+        opacity: 70%;
+        /* height: auto; */
+        /* z-index: 0; */
+    }
 
-.pic7 {
-    position: fixed;
-    width: 120px;
-    /* height: auto; */
-    top: 388px;
-    left: 100px;
-    z-index: 1;
-    /* height: auto; */
-}
+    .pic4 {
+        position: fixed;
+        width: 305px;
+        height: auto;
+        top: 77px;
+        left: 112px;
+        opacity: 70%;
+        z-index: -1;
+        height: 660px;
+    }
 
-.pic8 {
-    position: fixed;
-    width: 202px;
-    height: auto;
-    top: 601px;
-    left: 868px;
-    opacity: 75%;
-}
+    .pic5 {
+        position: fixed;
+        width: 120px;
+        height: auto;
+        top: 511px;
+        left: 261px;
+        opacity: 72%;
+    }
 
-.pic9 {
-    position: fixed;
-    width: 116px;
-    height: auto;
-    top: 18px;
-    left: 284px;
-    opacity: 90%;
-}
+    .pic6 {
+        position: fixed;
+        width: 196px;
+        height: auto;
+        top: 482px;
+        left: 50px;
+        opacity: 90%;
+    }
 
-.pic10 {
-    position: fixed;
-    width: 113px;
-    height: auto;
-    top: 638px;
-    left: 300px;
-}
+    .pic7 {
+        position: fixed;
+        width: 120px;
+        /* height: auto; */
+        top: 388px;
+        left: 100px;
+        z-index: 1;
+        /* height: auto; */
+    }
 
-.pic11 {
-    position: fixed;
-    width: 220px;
-    height: auto;
-    top: 407px;
-    left: 36px;
-    opacity: 40%;
-    z-index: -1;
-    height: 350px;
-}
+    .pic8 {
+        position: fixed;
+        width: 202px;
+        height: auto;
+        top: 601px;
+        left: 868px;
+        opacity: 75%;
+    }
+
+    .pic9 {
+        position: fixed;
+        width: 116px;
+        height: auto;
+        top: 18px;
+        left: 284px;
+        opacity: 90%;
+    }
+
+    .pic10 {
+        position: fixed;
+        width: 113px;
+        height: auto;
+        top: 638px;
+        left: 300px;
+    }
+
+    .pic11 {
+        position: fixed;
+        width: 220px;
+        height: auto;
+        top: 407px;
+        left: 36px;
+        opacity: 40%;
+        z-index: -1;
+        height: 350px;
+    }
   
 }
