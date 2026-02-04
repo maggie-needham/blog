@@ -282,9 +282,9 @@ a:hover {
     .blog {
         position: absolute;
         background-color: #fff8dc;
-        top: 180px;
+        top: 150px;
         text-align: center;
-        left: 220px;
+        left: 180px;
         z-index: 2;
         font-size: 50px;
         opacity: 60%;
@@ -344,7 +344,7 @@ a:hover {
         top: 292px;
         left: 34px;
         width: 286px;
-        height: 84px;
+        height: 54px;
         background-color: powderblue;
         opacity: 100%;
         z-index: 2;
@@ -353,8 +353,8 @@ a:hover {
 
     .by {
         position: fixed;
-        top: 224px;
-        left: 316px;
+        top: 254px;
+        left: 236px;
         z-index: 2;
         letter-spacing: 5px;
         background-color: yellow;
@@ -385,27 +385,27 @@ a:hover {
 
     .pic1 {
         position: fixed;
-        width: 149px;
-        top: 45px;
-        left: 45px;
+        width: 139px;
+        top: 25px;
+        left: 15px;
         opacity: 100%;
     }
 
     .pic2 {
         position: fixed;
-        width: 150px;
+        width: 130px;
         height: auto;
-        top: 100px;
-        left: 114px;
+        top: 80px;
+        left: 84px;
         z-index: 1;
     }
 
     .pic3 {
         position: fixed;
-        width: 110px;
+        width: 80px;
         height: auto;
-        top: 337px;
-        left: 280px;
+        top: 390px;
+        left: 270px;
         opacity: 70%;
         /* height: auto; */
         /* z-index: 0; */
@@ -413,38 +413,38 @@ a:hover {
 
     .pic4 {
         position: fixed;
-        width: 305px;
+        width: 245px;
         height: auto;
         top: 77px;
         left: 112px;
         opacity: 70%;
         z-index: -1;
-        height: 660px;
+        height: 540px;
     }
 
     .pic5 {
         position: fixed;
-        width: 120px;
+        width: 70px;
         height: auto;
         top: 511px;
         left: 261px;
-        opacity: 72%;
+        opacity: 0%;
     }
 
     .pic6 {
         position: fixed;
         width: 196px;
-        height: auto;
-        top: 482px;
+        height: 100px;
+        top: 352px;
         left: 50px;
-        opacity: 90%;
+        opacity: 0%;
     }
 
     .pic7 {
         position: fixed;
-        width: 120px;
+        width: 140px;
         /* height: auto; */
-        top: 388px;
+        top: 366px;
         left: 100px;
         z-index: 1;
         /* height: auto; */
@@ -452,36 +452,37 @@ a:hover {
 
     .pic8 {
         position: fixed;
-        width: 202px;
+        width: 212px;
         height: auto;
         top: 601px;
-        left: 868px;
-        opacity: 75%;
+        left: 100px;
+        opacity: 0%;
     }
 
     .pic9 {
         position: fixed;
-        width: 116px;
+        width: 96px;
         height: auto;
         top: 18px;
-        left: 284px;
+        left: 268px;
         opacity: 90%;
     }
 
     .pic10 {
         position: fixed;
-        width: 113px;
+        width: 133px;
         height: auto;
-        top: 638px;
-        left: 300px;
+        top: 508px;
+        left: 220px;
+        opacity: 80%;
     }
 
     .pic11 {
         position: fixed;
-        width: 220px;
+        width: 280px;
         height: auto;
-        top: 407px;
-        left: 36px;
+        top: 238px;
+        left: 16px;
         opacity: 40%;
         z-index: -1;
         height: 350px;
