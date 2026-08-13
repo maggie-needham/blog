@@ -8,12 +8,12 @@ a:hover {
 }
 
 body {
-    background-color: steelblue;
+    background-color: white;
     font-family: babel_sans;
     text-align: center;
 }
 
-p{
+p {
     position: absolute;
     top: 13vh;
     left: 20vw;
