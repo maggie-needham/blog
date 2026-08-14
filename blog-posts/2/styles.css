@@ -1,5 +1,71 @@
+* {
+ cursor: url(https://github.com/maggie-needham/blog/releases/download/images/redarrow.png) 0 0 , auto;
+}
+
+@font-face {
+    font-family: babel_sans;
+    src: url("../../fonts/BabelSans.woff2");
+}
+
+@font-face {
+    font-family: RawNotice;
+    src: url("../../fonts/RawNotice.ttf");
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: palegoldenrod;
 }
+
+.title {
+    width: fit-content; 
+    font-size: 30px;
+    font-family: 'RawNotice';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+p {
+    margin-top: 10px;
+    width: 55%;
+    font-size: 14px;
+    font-family: "babel_sans";
+}
+
+.quote {
+    margin-top: 5px;
+    width: 50%;
+    font-size: 13px;
+    font-style: italic;
+    font-family: "babel_sans";
+    margin-bottom: 5px;
+}
+
+img {
+    margin-top: 10px;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    p {
+        width: 90%;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .quote {
+        width: 70%;
+    }
+
+    img {
+        width: 60%;
+    }
+
+
+} 
