@@ -1,36 +1,41 @@
-const walloftext = document.getElementById("walloftext");
+// do not do any of this if it's mobile 
+const isMobile = window.matchMedia("(max-width: 768px)");
 
-const characters = walloftext.innerHTML.split('');
-const container = document.getElementById("container")
+if (! isMobile.matches) {
+  console.log("here")
+  const walloftext = document.getElementById("walloftext");
 
-counter = 0;
+  const characters = walloftext.innerHTML.split('');
+  const container = document.getElementById("container")
 
-characters.forEach(char => {
-  counter += 1
+  counter = 0;
 
-  const span = document.createElement('span');
-  span.classList.add("normal")
-  span.textContent = char;
+  characters.forEach(char => {
+    counter += 1
 
-  if (counter % 2 == 0) {
-    // Attach the mouseenter listener
-    span.addEventListener('pointerover', (event) => {
-        span.classList.add("getbig");
-    })
+    const span = document.createElement('span');
+    span.classList.add("normal")
+    span.textContent = char;
 
-    // Attach the mouseleave listener
-    span.addEventListener('pointerleave', () => {
-        span.classList.remove("getbig");
-    });
+    if (counter % 2 == 0) {
+      // Attach the mouseenter listener
+      span.addEventListener('pointerover', (event) => {
+          span.classList.add("getbig");
+      })
 
-    // Append the newly created character span back to the container
-    container.appendChild(span);
+      // Attach the mouseleave listener
+      span.addEventListener('pointerleave', () => {
+          span.classList.remove("getbig");
+      });
+
+      // Append the newly created character span back to the container
+      container.appendChild(span);
+    }
+    
+  });
+
+  function revealme() {
+    const me = document.getElementById("me");
+    me.classList.toggle("appear")
   }
-  
-});
-
-function revealme() {
-  const me = document.getElementById("me");
-  me.classList.toggle("appear")
 }
- 
