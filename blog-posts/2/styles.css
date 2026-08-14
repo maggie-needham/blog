@@ -28,7 +28,7 @@ body {
 }
 
 
-p {
+p , ul{
     margin-top: 10px;
     width: 55%;
     font-size: 16px;
@@ -51,7 +51,7 @@ img {
 }
 
 @media (max-width: 768px) {
-    p {
+    p, ul {
         width: 90%;
     }
 
