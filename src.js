@@ -20,7 +20,8 @@ if (! isMobile.matches) {
     if (counter % 2 == 0) {
       // Attach the mouseenter listener
       span.addEventListener('pointerover', (event) => {
-          span.classList.add("getbig");
+        span.classList.add("getbig");
+          
       })
 
       // Attach the mouseleave listener
