@@ -41,22 +41,35 @@ body {
     line-height: 0.5rem;
     z-index: 2; 
     pointer-events: auto;
+    letter-spacing: 50px;
 }
 
 .container .normal {
     opacity: 0;
     margin: 1.75px;
+    display: inline-block;
+}
+
+@keyframes moveDown {
+    from {transform: translateY(0); opacity: 100; }
+    to {transform: translateY(100px); opacity: 50; }
 }
 
 
 .container .getbig {
-    transform-origin: center center;
-    transform: scale(1.5);
+    /* transform-origin: center center;
+    transform: scale(1.5); */
+    font-size: 30px;
     font-family: 'RawNotice';
     z-index: 2;
     pointer-events: auto;
     opacity: 100;
+    animation-name: moveDown;
+    animation-duration: 1s;
+
 }
+
+
 
 .blogcontainer {
     position: absolute;
@@ -183,5 +196,4 @@ body {
         top: auto;
         left: auto;
     }
-
 } 
